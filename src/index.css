@@ -16,7 +16,7 @@ body {
   align-items: center;
   min-width: none;
   min-height: 100vh;
-  background: url(./assets/background-CB91WTMp.jpg) no-repeat center center scroll;
+  background: url(assets/background-CB91WTMp.jpg) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
