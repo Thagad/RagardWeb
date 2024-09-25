@@ -1,0 +1,119 @@
+.wrapper {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    color: #f2e2de;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrapper h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.wrapper .input_box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input_box .input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid rgba(255,255, 255, .2);
+    border-radius: 40px;
+    outline: none;
+    font-size: 17px;
+    padding: 20px 45px 20px 20px;
+    color: #f2e2de;
+    font-weight: 550;
+    text-align: center;
+}
+
+.input_box .input::placeholder{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 550;
+    color: #f2e2de;
+    opacity: 0.15;
+}
+
+.input_box .icon{
+    position: absolute;
+    right: 20px;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #f2e2de;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    font-weight: 600;
+    color: #f2e2de;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input{
+    accent-color: #f2e2de;
+    color: #f2e2de;
+    font-weight: 500;
+    margin-right: 3px;
+}
+
+.remember-forgot a{
+    color: #f2e2de;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper button{
+    width: 100%;
+    height: 45px;
+    background: #f2e2de;
+    border-radius: 40px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    color: #333;
+    font-weight: 700;
+}
+
+.wrapper .register-link{
+    font-size: 14.5px;
+    color: #f2e2de;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p{
+    color: #f2e2de;
+    font-weight: 650;
+    text-decoration: none;
+}
+
+.register-link p a{
+    color: #f2e2de;
+    font-weight: 1000;
+    text-decoration: none;
+}
+
+.register-link p a:hover{
+    color: #f2e2de;
+    text-decoration: underline;
+}
+
+.wrapper .error-box{
+    text-align: center
+}

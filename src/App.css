@@ -1,0 +1,8 @@
+.react-hot-toast {
+    --toast-width: fit-content;
+    --toast-min-width: 200px;
+    --toast-max-width: 500px;
+    width: var(--toast-width) !important;
+    min-width: var(--toast-min-width) !important;
+    max-width: var(--toast-max-width) !important;
+  }
