@@ -15,7 +15,7 @@ import axios from "axios";
 import { Toaster } from "react-hot-toast";
 import { UserContextProvider } from "../context/userContext.jsx";
 
-axios.defaults.baseURL = "http://localhost:8000";
+axios.defaults.baseURL = "https://ragardweb-backend.onrender.com/";
 axios.defaults.withCredentials = true;
 
 function App(){

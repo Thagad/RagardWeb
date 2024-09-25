@@ -5,7 +5,7 @@ import { UserContext } from '../../../context/userContext';
 import { useNavigate } from "react-router-dom";
 import axios from 'axios';
 
-const socket = io('http://localhost:8000');
+const socket = io('https://ragardweb-backend.onrender.com/');
 
 const Home = () => {
     const navigate = useNavigate();
